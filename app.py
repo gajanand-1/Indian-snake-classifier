@@ -130,7 +130,7 @@ def predict(image: Image.Image, model, idx_to_class, device):
 # Streamlit User Interface
 # ==============================================================================
 
-st.title("🐍 Snake Species Classifier")
+st.title("Indian 🐍 Snake Species Classifier")
 st.write("Upload an image or provide a URL, and the model will try to identify the snake's species.")
 
 # --- Create two tabs for input methods ---
@@ -183,5 +183,6 @@ if image_to_process is not None:
 
 st.markdown("---")
 st.write("Built with PyTorch and Streamlit. Model based on ResNet50.")
+
 
 
