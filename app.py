@@ -24,8 +24,8 @@ MODEL_URL = 'https://github.com/gajanand-1/Indian-snake-classifier/releases/down
 # Mapping from index to class name
 idx_to_class = {
     0: 'Checkered Keelback',
-    1: 'Common Bronzesback Tree Snake',
-    2: 'Cobra',
+    1: 'Cobra',
+    2: 'Common Bronzesback Tree Snake',
     3: 'Fake Viper',
     4: 'Flying Snake',
     5: 'Green Vine Snake',
@@ -183,6 +183,7 @@ if image_to_process is not None:
 
 st.markdown("---")
 st.write("Built with PyTorch and Streamlit. Model based on ResNet50.")
+
 
 
 
