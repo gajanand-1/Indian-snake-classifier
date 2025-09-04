@@ -19,7 +19,7 @@ st.set_page_config(
 # --- Model Constants and Class Mappings ---
 NUM_CLASSES = 13
 # IMPORTANT: Replace with the direct download link to your .pth file
-MODEL_URL = 'YOUR_MODEL_DOWNLOAD_URL_HERE.pth' 
+MODEL_URL = 'https://github.com/gajanand-1/Indian-snake-classifier/releases/download/v1.0/resnet50_snake_classifier3.pth' 
 
 # Mapping from index to class name
 idx_to_class = {
@@ -183,4 +183,5 @@ if image_to_process is not None:
 
 st.markdown("---")
 st.write("Built with PyTorch and Streamlit. Model based on ResNet50.")
+
 
